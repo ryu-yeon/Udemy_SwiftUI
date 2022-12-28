@@ -21,6 +21,10 @@
 		88C8F212295CF77B00652033 /* gorilla.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 88C8F208295CF77B00652033 /* gorilla.mp4 */; };
 		88C8F213295CF77B00652033 /* elephant.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 88C8F209295CF77B00652033 /* elephant.mp4 */; };
 		88C8F214295CF77B00652033 /* lion.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 88C8F20A295CF77B00652033 /* lion.mp4 */; };
+		88C8F21C295CF81C00652033 /* animals.json in Resources */ = {isa = PBXBuildFile; fileRef = 88C8F218295CF81B00652033 /* animals.json */; };
+		88C8F21D295CF81C00652033 /* covers.json in Resources */ = {isa = PBXBuildFile; fileRef = 88C8F219295CF81C00652033 /* covers.json */; };
+		88C8F21E295CF81C00652033 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 88C8F21A295CF81C00652033 /* locations.json */; };
+		88C8F21F295CF81C00652033 /* videos.json in Resources */ = {isa = PBXBuildFile; fileRef = 88C8F21B295CF81C00652033 /* videos.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +43,10 @@
 		88C8F208295CF77B00652033 /* gorilla.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = gorilla.mp4; sourceTree = "<group>"; };
 		88C8F209295CF77B00652033 /* elephant.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = elephant.mp4; sourceTree = "<group>"; };
 		88C8F20A295CF77B00652033 /* lion.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = lion.mp4; sourceTree = "<group>"; };
+		88C8F218295CF81B00652033 /* animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animals.json; sourceTree = "<group>"; };
+		88C8F219295CF81C00652033 /* covers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = covers.json; sourceTree = "<group>"; };
+		88C8F21A295CF81C00652033 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		88C8F21B295CF81C00652033 /* videos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +79,7 @@
 		88C8F1F1295CF6ED00652033 /* Africa */ = {
 			isa = PBXGroup;
 			children = (
+				88C8F217295CF80F00652033 /* Data */,
 				88C8F200295CF76700652033 /* Video */,
 				88C8F1F2295CF6ED00652033 /* AfricaApp.swift */,
 				88C8F1F4295CF6ED00652033 /* ContentView.swift */,
@@ -103,6 +112,17 @@
 				88C8F204295CF77A00652033 /* zebra.mp4 */,
 			);
 			path = Video;
+			sourceTree = "<group>";
+		};
+		88C8F217295CF80F00652033 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				88C8F218295CF81B00652033 /* animals.json */,
+				88C8F219295CF81C00652033 /* covers.json */,
+				88C8F21A295CF81C00652033 /* locations.json */,
+				88C8F21B295CF81C00652033 /* videos.json */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,9 +190,13 @@
 				88C8F1FA295CF6EE00652033 /* Preview Assets.xcassets in Resources */,
 				88C8F1F7295CF6EE00652033 /* Assets.xcassets in Resources */,
 				88C8F20D295CF77B00652033 /* rhino.mp4 in Resources */,
+				88C8F21E295CF81C00652033 /* locations.json in Resources */,
+				88C8F21D295CF81C00652033 /* covers.json in Resources */,
+				88C8F21C295CF81C00652033 /* animals.json in Resources */,
 				88C8F20E295CF77B00652033 /* zebra.mp4 in Resources */,
 				88C8F20C295CF77B00652033 /* lioness.mp4 in Resources */,
 				88C8F210295CF77B00652033 /* giraffe.mp4 in Resources */,
+				88C8F21F295CF81C00652033 /* videos.json in Resources */,
 				88C8F20F295CF77B00652033 /* cheetah.mp4 in Resources */,
 				88C8F213295CF77B00652033 /* elephant.mp4 in Resources */,
 			);
@@ -321,8 +345,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -350,8 +374,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
