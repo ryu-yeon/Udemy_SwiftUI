@@ -1,5 +1,5 @@
 //
-//  NationalParkLocation.swift
+//  NationalParkLocationModel.swift
 //  Africa
 //
 //  Created by 유연탁 on 2022/12/30.
