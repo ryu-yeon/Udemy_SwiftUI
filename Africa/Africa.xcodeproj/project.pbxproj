@@ -25,6 +25,29 @@
 		88C8F21D295CF81C00652033 /* covers.json in Resources */ = {isa = PBXBuildFile; fileRef = 88C8F219295CF81C00652033 /* covers.json */; };
 		88C8F21E295CF81C00652033 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 88C8F21A295CF81C00652033 /* locations.json */; };
 		88C8F21F295CF81C00652033 /* videos.json in Resources */ = {isa = PBXBuildFile; fileRef = 88C8F21B295CF81C00652033 /* videos.json */; };
+		88C8F224295CF9B900652033 /* VideoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F223295CF9B900652033 /* VideoListView.swift */; };
+		88C8F226295CF9CF00652033 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F225295CF9CF00652033 /* MapView.swift */; };
+		88C8F228295CF9DE00652033 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F227295CF9DE00652033 /* GalleryView.swift */; };
+		88C8F22A295CF9E900652033 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F229295CF9E900652033 /* MainView.swift */; };
+		88C8F22C295CFB6000652033 /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F22B295CFB6000652033 /* CoverImageView.swift */; };
+		88C8F230295CFCAD00652033 /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F22F295CFCAD00652033 /* CoverImageModel.swift */; };
+		88C8F233295CFD2800652033 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F232295CFD2800652033 /* CodableBundleExtension.swift */; };
+		88C8F235295CFFEC00652033 /* AnimalListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F234295CFFEC00652033 /* AnimalListItemView.swift */; };
+		88C8F237295D00EB00652033 /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F236295D00EB00652033 /* AnimalModel.swift */; };
+		88C8F239295D02F900652033 /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F238295D02F900652033 /* AnimalDetailView.swift */; };
+		88C8F23B295D04CD00652033 /* HeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F23A295D04CD00652033 /* HeadingView.swift */; };
+		88C8F23D295D05C200652033 /* InsetGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F23C295D05C200652033 /* InsetGalleryView.swift */; };
+		88C8F23F295D0AE400652033 /* InsetFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F23E295D0AE400652033 /* InsetFactView.swift */; };
+		88C8F241295D0C8700652033 /* InsetMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F240295D0C8700652033 /* InsetMapView.swift */; };
+		88C8F243295D0F4100652033 /* ExternalWeblinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F242295D0F4100652033 /* ExternalWeblinkView.swift */; };
+		88C8F245295EB49E00652033 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F244295EB49E00652033 /* VideoModel.swift */; };
+		88C8F247295EB4E800652033 /* VideoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F246295EB4E800652033 /* VideoListItemView.swift */; };
+		88C8F249295EBA7900652033 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F248295EBA7900652033 /* VideoPlayerView.swift */; };
+		88C8F24C295EBB6900652033 /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F24B295EBB6900652033 /* VideoPlayerHelper.swift */; };
+		88C8F24E295EC9FF00652033 /* NationalParkLocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F24D295EC9FF00652033 /* NationalParkLocationModel.swift */; };
+		88CE22A3295ECE970078A6CB /* MapAnnotaionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CE22A2295ECE970078A6CB /* MapAnnotaionView.swift */; };
+		88CE22A5295EDB6B0078A6CB /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CE22A4295EDB6B0078A6CB /* MotionAnimationView.swift */; };
+		88CE22A7295EF3E70078A6CB /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CE22A6295EF3E70078A6CB /* AnimalGridItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +70,30 @@
 		88C8F219295CF81C00652033 /* covers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = covers.json; sourceTree = "<group>"; };
 		88C8F21A295CF81C00652033 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 		88C8F21B295CF81C00652033 /* videos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos.json; sourceTree = "<group>"; };
+		88C8F220295CF8F900652033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		88C8F223295CF9B900652033 /* VideoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListView.swift; sourceTree = "<group>"; };
+		88C8F225295CF9CF00652033 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		88C8F227295CF9DE00652033 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		88C8F229295CF9E900652033 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		88C8F22B295CFB6000652033 /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
+		88C8F22F295CFCAD00652033 /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
+		88C8F232295CFD2800652033 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		88C8F234295CFFEC00652033 /* AnimalListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListItemView.swift; sourceTree = "<group>"; };
+		88C8F236295D00EB00652033 /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
+		88C8F238295D02F900652033 /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
+		88C8F23A295D04CD00652033 /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
+		88C8F23C295D05C200652033 /* InsetGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetGalleryView.swift; sourceTree = "<group>"; };
+		88C8F23E295D0AE400652033 /* InsetFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetFactView.swift; sourceTree = "<group>"; };
+		88C8F240295D0C8700652033 /* InsetMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetMapView.swift; sourceTree = "<group>"; };
+		88C8F242295D0F4100652033 /* ExternalWeblinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWeblinkView.swift; sourceTree = "<group>"; };
+		88C8F244295EB49E00652033 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		88C8F246295EB4E800652033 /* VideoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItemView.swift; sourceTree = "<group>"; };
+		88C8F248295EBA7900652033 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		88C8F24B295EBB6900652033 /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
+		88C8F24D295EC9FF00652033 /* NationalParkLocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationalParkLocationModel.swift; sourceTree = "<group>"; };
+		88CE22A2295ECE970078A6CB /* MapAnnotaionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotaionView.swift; sourceTree = "<group>"; };
+		88CE22A4295EDB6B0078A6CB /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
+		88CE22A6295EF3E70078A6CB /* AnimalGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGridItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,11 +126,15 @@
 		88C8F1F1295CF6ED00652033 /* Africa */ = {
 			isa = PBXGroup;
 			children = (
+				88C8F24A295EBB4400652033 /* Utillity */,
+				88C8F231295CFD1400652033 /* Extension */,
+				88C8F222295CF99200652033 /* View */,
+				88C8F221295CF98500652033 /* App */,
 				88C8F217295CF80F00652033 /* Data */,
+				88C8F22E295CFC8700652033 /* Model */,
 				88C8F200295CF76700652033 /* Video */,
-				88C8F1F2295CF6ED00652033 /* AfricaApp.swift */,
-				88C8F1F4295CF6ED00652033 /* ContentView.swift */,
 				88C8F1F6295CF6EE00652033 /* Assets.xcassets */,
+				88C8F220295CF8F900652033 /* Info.plist */,
 				88C8F1F8295CF6EE00652033 /* Preview Content */,
 			);
 			path = Africa;
@@ -123,6 +174,66 @@
 				88C8F21B295CF81C00652033 /* videos.json */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		88C8F221295CF98500652033 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				88C8F1F2295CF6ED00652033 /* AfricaApp.swift */,
+				88C8F1F4295CF6ED00652033 /* ContentView.swift */,
+				88C8F223295CF9B900652033 /* VideoListView.swift */,
+				88C8F225295CF9CF00652033 /* MapView.swift */,
+				88C8F227295CF9DE00652033 /* GalleryView.swift */,
+				88C8F229295CF9E900652033 /* MainView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		88C8F222295CF99200652033 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				88C8F22B295CFB6000652033 /* CoverImageView.swift */,
+				88C8F234295CFFEC00652033 /* AnimalListItemView.swift */,
+				88C8F238295D02F900652033 /* AnimalDetailView.swift */,
+				88C8F23A295D04CD00652033 /* HeadingView.swift */,
+				88CE22A2295ECE970078A6CB /* MapAnnotaionView.swift */,
+				88C8F23C295D05C200652033 /* InsetGalleryView.swift */,
+				88CE22A6295EF3E70078A6CB /* AnimalGridItemView.swift */,
+				88C8F23E295D0AE400652033 /* InsetFactView.swift */,
+				88C8F240295D0C8700652033 /* InsetMapView.swift */,
+				88C8F242295D0F4100652033 /* ExternalWeblinkView.swift */,
+				88C8F246295EB4E800652033 /* VideoListItemView.swift */,
+				88C8F248295EBA7900652033 /* VideoPlayerView.swift */,
+				88CE22A4295EDB6B0078A6CB /* MotionAnimationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		88C8F22E295CFC8700652033 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				88C8F22F295CFCAD00652033 /* CoverImageModel.swift */,
+				88C8F236295D00EB00652033 /* AnimalModel.swift */,
+				88C8F244295EB49E00652033 /* VideoModel.swift */,
+				88C8F24D295EC9FF00652033 /* NationalParkLocationModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		88C8F231295CFD1400652033 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				88C8F232295CFD2800652033 /* CodableBundleExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		88C8F24A295EBB4400652033 /* Utillity */ = {
+			isa = PBXGroup;
+			children = (
+				88C8F24B295EBB6900652033 /* VideoPlayerHelper.swift */,
+			);
+			path = Utillity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,8 +320,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88C8F243295D0F4100652033 /* ExternalWeblinkView.swift in Sources */,
 				88C8F1F5295CF6ED00652033 /* ContentView.swift in Sources */,
+				88C8F235295CFFEC00652033 /* AnimalListItemView.swift in Sources */,
+				88C8F22A295CF9E900652033 /* MainView.swift in Sources */,
+				88C8F23F295D0AE400652033 /* InsetFactView.swift in Sources */,
+				88C8F22C295CFB6000652033 /* CoverImageView.swift in Sources */,
+				88C8F230295CFCAD00652033 /* CoverImageModel.swift in Sources */,
+				88C8F239295D02F900652033 /* AnimalDetailView.swift in Sources */,
+				88C8F237295D00EB00652033 /* AnimalModel.swift in Sources */,
+				88C8F226295CF9CF00652033 /* MapView.swift in Sources */,
+				88C8F24C295EBB6900652033 /* VideoPlayerHelper.swift in Sources */,
+				88C8F241295D0C8700652033 /* InsetMapView.swift in Sources */,
 				88C8F1F3295CF6ED00652033 /* AfricaApp.swift in Sources */,
+				88C8F224295CF9B900652033 /* VideoListView.swift in Sources */,
+				88C8F245295EB49E00652033 /* VideoModel.swift in Sources */,
+				88C8F228295CF9DE00652033 /* GalleryView.swift in Sources */,
+				88C8F24E295EC9FF00652033 /* NationalParkLocationModel.swift in Sources */,
+				88C8F23D295D05C200652033 /* InsetGalleryView.swift in Sources */,
+				88CE22A7295EF3E70078A6CB /* AnimalGridItemView.swift in Sources */,
+				88C8F249295EBA7900652033 /* VideoPlayerView.swift in Sources */,
+				88C8F247295EB4E800652033 /* VideoListItemView.swift in Sources */,
+				88C8F233295CFD2800652033 /* CodableBundleExtension.swift in Sources */,
+				88CE22A5295EDB6B0078A6CB /* MotionAnimationView.swift in Sources */,
+				88CE22A3295ECE970078A6CB /* MapAnnotaionView.swift in Sources */,
+				88C8F23B295D04CD00652033 /* HeadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,11 +476,12 @@
 				DEVELOPMENT_TEAM = CH36BYYATY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Africa/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -371,11 +506,12 @@
 				DEVELOPMENT_TEAM = CH36BYYATY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Africa/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
